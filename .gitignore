@@ -1,0 +1,17 @@
+# secret config
+
+config.py
+
+# runtime data
+
+prev_rates/prev_rates.json
+reports/daily_report_*.txt
+
+# python cache
+
+**pycache**/
+*.pyc
+
+# editor
+
+Python.code-workspace
