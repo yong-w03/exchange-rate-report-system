@@ -16,11 +16,6 @@ def format_diff(value):
         return "±0.00"
 
 def generate_report(rate_data, jpy_to_php, prev_rates=None, prev_updated_at=None):
-    """
-    日本円とフィリピンペソの比較レポート生成
-    prev_rates: 前回のレート辞書 {"JPY": ..., "PHP": ...} なしでも可
-    prev_updated_at: 前回レート更新日
-    """
     from datetime import datetime
     today = datetime.now().strftime("%Y/%m/%d")
     date_header = f"----{today}-----\n"
